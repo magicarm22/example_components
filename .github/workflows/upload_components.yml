@@ -12,6 +12,8 @@ jobs:
       - uses: actions/checkout@master
       - name: Upload components
         uses: magicarm22/upload-components-ci-action@feature/compote_command
+        env:
+          DEFAULT_COMPONENT_SERVICE_URL: https://components-staging.espressif.com/api
         with:
           name: test
           directories: cmp
