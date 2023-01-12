@@ -17,4 +17,4 @@ jobs:
           directories: cmp
           namespace: dmitry
           api_token: ${{ secrets.IDF_COMPONENT_API_TOKEN }}
-          registry_url: https://components-staging.espressif.com
+          service_url: https://components-staging.espressif.com/api
