@@ -18,3 +18,4 @@ jobs:
           namespace: dmitry
           api_token: ${{ secrets.IDF_COMPONENT_API_TOKEN }}
           service_url: https://components-staging.espressif.com/api
+          registry_url: https://components-staging.espressif.com
